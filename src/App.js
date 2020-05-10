@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './kjlogo.png';
+import logo from './flower1.png';
 import flower2 from './kukka3.jpg';
 import cs1 from './cs1.jpg';
 import './App.css';
@@ -9,11 +9,20 @@ import './App.sass';
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <h1 className="title">Flower Day 13.5.</h1>
-            </header>
+
+            <img src={logo} className="App-logo" alt="logo"/>
+
+            <section className="hero is-primary">
+                <div className="hero-body">
+                    <div className="container">
+
+                    </div>
+                </div>
+            </section>
+
+            
+
             <div className="App-info">
-                <img src={logo} className="App-logo" alt="logo"/>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare id quam sed posuere.
                     Vestibulum posuere dignissim nisl, non egestas augue finibus ut. Pellentesque ut sagittis nisi.
@@ -51,8 +60,16 @@ function App() {
                     imperdiet, et cursus justo aliquet. Integer ultricies ipsum vitae neque interdum vulputate non non
                     massa. Phasellus et tellus tortor. Nulla in tortor velit. </p>
 
-                
 
+                <footer className="footer">
+                    <div className="container">
+                        <div className="content has-text-centered">
+                            <p className="footer-text">
+                                Campus Section 2020
+                            </p>
+                        </div>
+                    </div>
+                </footer>
 
             </div>
 

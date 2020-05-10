@@ -22,9 +22,9 @@
     font-size: calc(10px + 1.1vmin);
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+
+.middle-banner {
+    color: white;
 }
 
 .App-header {
@@ -56,6 +56,10 @@
 .cs1 {
     width: 50%;
     float: left;
+}
+
+.footer-text {
+    color: black;
 }
 
 .footer {
