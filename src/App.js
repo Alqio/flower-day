@@ -12,66 +12,72 @@ function App() {
 
             <img src={logo} className="App-logo" alt="logo"/>
 
-            <section className="hero is-primary">
-                <div className="hero-body">
-                    <div className="container">
+            <section className="section is-medium">
+                <div className="container app-info">
+                    <h1 className="title">Kukanpäivän viesti</h1>
+                    <p>Arvon opetusministeri Li Andersson,</p>
 
-                    </div>
+                    <p>Elämme poikkeuksellisia aikoja, mutta jotkin asiat maailmassa pysyvät ennallaan: kevät on jo
+                        pitkällä ja kesä kohta kulman takana. Luonto on herännyt eloon ja valkovuokot kukkivat, onhan
+                        nyt Floran päivä. On aika tuoda kotokulmiltamme Otaniemestä perinteinen Kukanpäivän viesti.
+                    </p>
+
+                    <p>Koronakevät on vaatinut kaikilta meiltä joustavuutta ja paineensietokykyä. Arkielämä on kokenut
+                        sellaisia muutoksia, joita kukaan ei olisi vuoden alussa osannut odottaa. Opiskelu kaikilla
+                        asteilla on myös siirtynyt etäympäristöön, ja niin korkeakouluopiskelijat kuin
+                        peruskoululaisetkin ovat saaneet mukautua uusiin oppimisympäristöihin.
+                    </p>
+
+                    <p>
+                        Opettajat ovat tehneet ensiarvoisen tärkeää työtä haastavissa olosuhteissa, jotta jokainen
+                        koululainen pystyisi pandemiasta huolimatta jatkamaan kouluvuottaan mahdollisimman normaalisti.
+                        He ansaitsevat siitä kiitoksen. Toimivan ja yhdenvertaisen koulutusjärjestelmän tärkeys on
+                        korostunut kevään aikana, kun kouluun ei ole fyysisesti ollut mahdollista mennä.
+                    </p>
+
+                    <p>
+                        Suomen ainoa keino pärjätä globaalissa maailmassa on osaava kansa. Koulutus on yksi loistava
+                        keino tasata eriarvoisuutta ja antaa jokaiselle suomalaiselle eväät elämässä onnistumiseen
+                        lähtökohdista riippumatta. Koulutuksen tärkeyden pitäisi näkyä riittävinä resursseina.
+                    </p>
+
+                    <p>
+                        AYY lupaa tehdä voitavansa sen eteen, että korkeakouluun hakiessa portit olisivat auki
+                        jokaiselle taustasta riippumatta. Tiedämme, että parhaiten eroja tasataan jo aiemmin
+                        varhaiskasvatuksessa, peruskoulussa ja toisella asteella. Opettajien tekemä työ on paras tapa
+                        antaa riittävät valmiudet ja yhdenvertaiset mahdollisuudet korkeakouluopintoihin hakeutumiseen,
+                        ja siksi olemme kiitollisia siitä työstä, mitä oppilaitoksissa tehdään päivittäin.
+                    </p>
+
+                    <p>
+                        Toivottavasti syksyllä pandemia on jo rauhoittunut ja uusi lukuvuosi päästään aloittamaan
+                        normaaliin tapaan. Tiedämme kuitenkin, että pärjäämme tilanteesta riippumatta. Otaniemikin ottaa
+                        ilolla vastaan uudet opiskelijat elokuun lopussa.
+                    </p>
+                    <br/>
+                    <p>Teekkarikylässä</p>
+                    <p>Kukanpäivänä 2020</p>
+                </div>
+
+            </section>
+
+            <section className="section">
+                <div className="container">
+                    <figure className="image is-128x128">
+                        <img src={flower2}/>
+                    </figure>
                 </div>
             </section>
 
-            
-
-            <div className="App-info">
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare id quam sed posuere.
-                    Vestibulum posuere dignissim nisl, non egestas augue finibus ut. Pellentesque ut sagittis nisi.
-                    Integer malesuada blandit ligula, sit amet pretium neque sollicitudin nec. Praesent pulvinar
-                    odio nec tristique egestas. Nulla facilisi. Ut non aliquam sapien, id rutrum quam. In interdum
-                    cursus erat. Cras in eros urna. Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Integer ultrices quam vel laoreet ultricies. Donec
-                    consectetur tristique eros. Suspendisse in posuere nibh. Nulla pretium urna nec massa porta
-                    mollis. Phasellus id orci ullamcorper, scelerisque elit et, porttitor eros. </p>
-                <img className="flower2" src={flower2}/>
-                <p> Maecenas ultrices semper cursus. Vivamus nec lacus luctus, ullamcorper eros maximus, ullamcorper
-                    dui. Maecenas consequat eros a molestie convallis. In hac habitasse platea dictumst. Morbi
-                    tempor, nunc ut ullamcorper dignissim, tortor tortor maximus libero, ut dapibus tortor diam
-                    pretium ligula. Sed pretium justo ut lectus rhoncus varius. Nunc dictum leo purus, in euismod
-                    dui ullamcorper eu. Suspendisse mattis felis et sollicitudin gravida. Etiam nulla tortor,
-                    faucibus sit amet massa sed, euismod imperdiet leo. Nunc egestas leo massa, sit amet ullamcorper
-                    nulla iaculis at. </p>
-                <p> Pellentesque sit amet enim sed arcu hendrerit placerat. Nunc condimentum condimentum libero, vitae
-                    aliquet augue blandit nec. Morbi eleifend, urna id sollicitudin viverra, nisl odio pellentesque
-                    felis, non tristique ligula tellus at felis. Proin facilisis neque mi, vel placerat nisl dictum in.
-                    Mauris cursus a purus sit amet malesuada. Cras lectus sem, dictum at quam ac, pulvinar convallis
-                    est. Nam volutpat ex sed maximus laoreet. Maecenas aliquam erat nec finibus tristique. Cras cursus,
-                    libero id mollis semper, erat eros ultricies nunc, ac scelerisque velit elit at odio. Quisque vel
-                    sem eros. Mauris ornare gravida laoreet. Curabitur id elit porttitor, sollicitudin velit eget,
-                    commodo orci. Suspendisse semper, sapien finibus pellentesque aliquam, magna urna eleifend tellus,
-                    eu sagittis sem dolor vel lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                    per inceptos himenaeos. </p>
-
-                <img className="cs1" src={cs1}/>
-                <p> Suspendisse potenti. Vestibulum in ullamcorper sapien. Donec pulvinar mi non lacinia finibus. Nullam
-                    tincidunt, ante quis pharetra dignissim, magna nulla viverra sem, eget dapibus neque mi quis felis.
-                    In nec commodo orci, eget commodo ante. Quisque nec libero urna. Nulla euismod placerat tellus, at
-                    tincidunt felis porta sit amet. Vivamus hendrerit, quam sit amet pulvinar sagittis, sem velit
-                    gravida odio, a eleifend orci velit at nibh. Quisque non mi lacus. Mauris pretium erat et nulla
-                    imperdiet, et cursus justo aliquet. Integer ultricies ipsum vitae neque interdum vulputate non non
-                    massa. Phasellus et tellus tortor. Nulla in tortor velit. </p>
-
-
-                <footer className="footer">
-                    <div className="container">
-                        <div className="content has-text-centered">
-                            <p className="footer-text">
-                                Campus Section 2020
-                            </p>
-                        </div>
+            <footer className="footer">
+                <div className="container">
+                    <div className="content has-text-centered">
+                        <p className="footer-text">
+                            Campus Section 2020
+                        </p>
                     </div>
-                </footer>
-
-            </div>
+                </div>
+            </footer>
 
         </div>
 
