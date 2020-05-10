@@ -12,6 +12,10 @@
 
 }
 
+.App-logo {
+    height: 100%;
+}
+
 .App-info {
     max-width: 60%;
     align-items: start;

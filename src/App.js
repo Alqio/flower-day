@@ -6,9 +6,11 @@ import './App.css';
 import './App.sass';
 
 
-function App() {
+const App = () => {
     return (
         <div className="App">
+
+
 
             <img src={logo} className="App-logo" alt="logo"/>
 
