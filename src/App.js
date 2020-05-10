@@ -3,12 +3,14 @@ import logo from './kjlogo.png';
 import flower2 from './kukka3.jpg';
 import cs1 from './cs1.jpg';
 import './App.css';
+import './App.sass';
+
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <h1 className="header">Flower Day 13.5.</h1>
+                <h1 className="title">Flower Day 13.5.</h1>
             </header>
             <div className="App-info">
                 <img src={logo} className="App-logo" alt="logo"/>
@@ -49,9 +51,8 @@ function App() {
                     imperdiet, et cursus justo aliquet. Integer ultricies ipsum vitae neque interdum vulputate non non
                     massa. Phasellus et tellus tortor. Nulla in tortor velit. </p>
 
-                <div className="footer">
-                    2020
-                </div>
+                
+
 
             </div>
 
