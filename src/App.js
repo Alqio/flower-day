@@ -124,10 +124,15 @@ const App = () => {
                     </figure>
                     <p>2018 nautittiin aurinkoisesta säästä</p>
 
-                    <figure className="image is-128x128 is-rounded">
+                    <figure className="image is-128x128">
                         <img src={seppele}/>
                     </figure>
                     <p>2019 askarreltiin kukkaseppeleitä</p>
+
+                    <figure className="image is-512x512 ">
+                        <iframe src="https://elonet.finna.fi/7bccf94d-0b4a-45cf-87e7-1ccf27aba5d4">testi</iframe>
+                    </figure>
+
 
                 </div>
             </section>
