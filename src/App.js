@@ -33,7 +33,7 @@ const App = () => {
             <section className="section">
                 <div className="container app-info">
                     <h1 className="title">Kukanpäivän viesti</h1>
-                    <p className="is-size-5">Arvon opetusministeri Li Andersson,</p>
+                    <p className="is-size-5">{/*Arvon opetusministeri Li Andersson,*/}</p>
 
                     <p className="is-size-5">Elämme poikkeuksellisia aikoja, mutta jotkin asiat maailmassa pysyvät
                         ennallaan: kevät on jo
