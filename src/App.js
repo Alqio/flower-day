@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './flower1.png';
 import flower2 from './kukka3.jpg';
-import cs1 from './cs1.jpg';
+import seppele from './seppele.jpg';
 import './App.css';
 import './App.sass';
 
@@ -9,7 +9,6 @@ import './App.sass';
 const App = () => {
     return (
         <div className="App">
-
 
 
             <img src={logo} className="App-logo" alt="logo"/>
@@ -65,11 +64,55 @@ const App = () => {
 
             <section className="section">
                 <div className="container">
+                    <h1 className="title">Kukanpäivän perinteitä</h1>
+
+                    <p>Aalto-yliopiston piirissä Kukanpäivänä juhlitaan Teekkarikylän syntymäpäivää ja juhlaa on
+                        vietetty
+                        Teekkarikylän perustamisesta asti. Viime vuosina Kukanpäivää on juhlittu rennossa
+                        festarimuodossa Smökissä.</p>
+                    <br/>
+
+                    <p>Kukanpäivän viesti on Aalto-yliopiston ylioppilaskunnassa perinteinen kevään merkki. Muutettuaan
+                        teekkarikylään opiskelijat eivät kuitenkaan halunneet luopua yhteyksistä kantakaupunkiin, vaan
+                        suhteita pyrittiin pitämään yllä esimerkiksi luovuttamalla keväinen tervehdys, <b>Kukanpäivän
+                            viesti</b>, jollekin merkkihenkilölle tai päättäjälle. Ensimmäisen kukanpäivän viestin
+                        vastaanotti 13.5.1956 satamakaupunkimme Helsingin silloinen ylipormestari Eero Rydman. Viestiä
+                        vastaanottamassa on ollut muun muassa tasavallan presidentti, useita
+                        ministereitä, kansanedustajia sekä yhteiskunnan vaikuttajia, mutta myös espoolaisia arkkitehteja
+                        sekä metron räjäytysinsinööri.</p>
+                    <br/>
+                    <p>Nykyään viestin tarkoituksena on kohdistaa päättäjien huomio opiskelijoiden mielestä tärkeisiin
+                        yhteiskunnallisiin aiheisiin, kuten koulutukseen, asumiseen, joukkoliikenteeseen, tutkimukseen,
+                        tai maanpuolustukseen. Viestiä vastaanottamassa on ollut muun muassa tasavallan presidentti,
+                        useita ministereitä, kansanedustajia sekä yhteiskunnan vaikuttajia, mutta myös espoolaisia
+                        arkkitehteja sekä metron räjäytysinsinööri. Lisäksi viestillä kohennetaan teekkareiden
+                        julkisuuskuvaa vappuriehan jälkeen.</p>
+                    <br/>
+                    <p>Viesti kuljetettiin alunperin Otaniemestä meloen Hietalahden torille rannassa odottavalle
+                        vastaanottajalle. Myöhemmin viesti on toimitettu erinäisiin paikkoihin viestin vastaanottajasta
+                        riippuen. Matka taitettiin kanadalaisilta lahjaksi saadulla kanootilla, joka on myöhemmin
+                        korvattu uudemmalla kanootilla, joka löytyy Smökin akvaariosta. Viestiä lähdettiin kuljettamaan
+                        viimeistään klo 07:00, jotta tuuli ei yltynyt liikaa.</p>
+                    <br/>
+                </div>
+            </section>
+
+            <section className="section">
+                <div className="container">
+                    <h1 className="title">Kuvia vanhoista kukanpäivistä</h1>
                     <figure className="image is-128x128">
                         <img src={flower2}/>
                     </figure>
+                    <p>2018 nautittiin aurinkoisesta säästä</p>
+
+                    <figure className="image is-128x128">
+                        <img src={seppele}/>
+                    </figure>
+                    <p>2019 askarreltiin kukkaseppeleitä</p>
+
                 </div>
             </section>
+
 
             <footer className="footer">
                 <div className="container">
