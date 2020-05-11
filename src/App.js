@@ -101,9 +101,7 @@ const App = () => {
                     <p className="is-size-5">Nykyään viestin tarkoituksena on kohdistaa päättäjien huomio opiskelijoiden
                         mielestä tärkeisiin
                         yhteiskunnallisiin aiheisiin, kuten koulutukseen, asumiseen, joukkoliikenteeseen, tutkimukseen,
-                        tai maanpuolustukseen. Viestiä vastaanottamassa on ollut muun muassa tasavallan presidentti,
-                        useita ministereitä, kansanedustajia sekä yhteiskunnan vaikuttajia, mutta myös espoolaisia
-                        arkkitehteja sekä metron räjäytysinsinööri. Lisäksi viestillä kohennetaan teekkareiden
+                        tai maanpuolustukseen. Lisäksi viestillä kohennetaan teekkareiden
                         julkisuuskuvaa vappuriehan jälkeen.</p>
                     <br/>
                     <p className="is-size-5">Viesti kuljetettiin alunperin Otaniemestä meloen Hietalahden torille
@@ -130,8 +128,14 @@ const App = () => {
                     <p>2019 askarreltiin kukkaseppeleitä</p>
 
                     <figure className="image is-512x512 ">
-                        <iframe src="https://elonet.finna.fi/7bccf94d-0b4a-45cf-87e7-1ccf27aba5d4">testi</iframe>
+                        <a href="https://elonet.finna.fi/Record/kavi.elonet_elokuva_102579">
+                            <img className="is-rounded"
+                                 src="https://elonet.finna.fi/Cover/Show?id=kavi.elonet_elokuva_102579&index=0&size=large"/>
+                        </a>
                     </figure>
+                    <a href="https://elonet.finna.fi/Record/kavi.elonet_elokuva_102579">Otaniemi - tuleva tekniikan
+                        kaupunki</a>
+                    <p>Videodokumentti kukanpäivältä 1950, jolloin aloitettiin Teekkarikylän rakentaminen</p>
 
 
                 </div>
