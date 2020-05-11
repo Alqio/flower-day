@@ -2,6 +2,10 @@ import React from 'react';
 import logo from './flower1.png';
 import flower2 from './kukka3.jpg';
 import seppele from './seppele.jpg';
+import kanootti from './kanootti.jpg';
+import koivisto from './koivisto.png';
+import ossi from './ossi.png';
+
 import './App.css';
 import './App.sass';
 
@@ -117,15 +121,28 @@ const App = () => {
             <section className="section">
                 <div className="container">
                     <h1 className="title">Kuvia vanhoista kukanpäivistä</h1>
-                    <figure className="image is-128x128 ">
-                        <img className="is-rounded" src={flower2}/>
-                    </figure>
-                    <p>2018 nautittiin aurinkoisesta säästä</p>
 
                     <figure className="image is-128x128">
                         <img src={seppele}/>
                     </figure>
                     <p>2019 askarreltiin kukkaseppeleitä</p>
+
+                    <figure className="image is-128x128 ">
+                        <img className="is-rounded" src={kanootti}/>
+                    </figure>
+                    <p>Kukanpäivän viesti rantautuu kanootilla Otarantaan vuonna 2018 (kuva: OUBS)</p>
+
+                    <figure className="image is-128x128 ">
+                        <img className="is-rounded" src={koivisto}/>
+                    </figure>
+                    <p>Kukanpäivän viesti luovutetaan Rouva Tellervo Koivistolle Esplanadin lavalla vuonna 1982.</p>
+
+                    <figure className="image is-128x128 ">
+                        <img className="is-rounded" src={ossi}/>
+                    </figure>
+                    <p>Ossi Törrönen suorittaa lähtölaskennan Teekkarikylän 25-vuotisjuhlien pamaukselle yhdessä kylässä
+                        syntyneen teekkarin kanssa Kukanpäivänä 1978.</p>
+
 
                     <figure className="image is-512x512 ">
                         <a href="https://elonet.finna.fi/Record/kavi.elonet_elokuva_102579">
