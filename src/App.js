@@ -35,16 +35,15 @@ const App = () => {
                     <p className="is-size-5">{/*Arvon opetusministeri Li Andersson,*/}</p>
 
                     <p className="is-size-5">Elämme poikkeuksellisia aikoja, mutta jotkin asiat maailmassa pysyvät
-                        ennallaan: kevät on jo
-                        pitkällä ja kesä kohta kulman takana. Luonto on herännyt eloon ja valkovuokot kukkivat, onhan
-                        nyt Floran päivä. On aika tuoda kotokulmiltamme Otaniemestä perinteinen Kukanpäivän viesti.
+                        ennallaan: kevät on jo pitkällä ja kesä kohta kulman takana. Luonto on herännyt eloon ja
+                        valkovuokot kukkivat, onhan nyt Flooran päivä. On aika tuoda kotokulmiltamme Otaniemestä
+                        perinteinen Kukanpäivän viesti.
                     </p>
                     <br/>
-                    <p className="is-size-5">Koronakevät on vaatinut kaikilta meiltä joustavuutta ja paineensietokykyä.
-                        Arkielämä on kokenut
-                        sellaisia muutoksia, joita kukaan ei olisi vuoden alussa osannut odottaa. Opiskelu kaikilla
-                        asteilla on myös siirtynyt etäympäristöön, ja niin korkeakouluopiskelijat kuin
-                        peruskoululaisetkin ovat saaneet mukautua uusiin oppimisympäristöihin.
+                    <p className="is-size-5">Coronavåren har krävt flexibilitet och stresstålighet från oss alla.
+                        Vardagen har genomgått förändringar som ingen i början av året kunde ha förväntat sig. Studier
+                        på alla nivåer har också skiftat till en distansmiljö, och både universitetsstudenter och
+                        grundskoleelever har anpassa sig till nya inlärningsmiljöer.
                     </p>
                     <br/>
                     <p className="is-size-5">
@@ -55,17 +54,19 @@ const App = () => {
                     </p>
                     <br/>
                     <p className="is-size-5">
-                        Suomen ainoa keino pärjätä globaalissa maailmassa on osaava kansa. Koulutus on yksi loistava
-                        keino tasata eriarvoisuutta ja antaa jokaiselle suomalaiselle eväät elämässä onnistumiseen
-                        lähtökohdista riippumatta. Koulutuksen tärkeyden pitäisi näkyä riittävinä resursseina.
+                        The only way for Finland to thrive in a global world is to have competent citizens. Free
+                        education is an excellent way to improve equality and provide an opportunity for one to succeed
+                        in life regardless of their starting point. The importance of education should manifest as
+                        sufficient resources.
                     </p>
                     <br/>
                     <p className="is-size-5">
-                        AYY lupaa tehdä voitavansa sen eteen, että korkeakouluun hakiessa portit olisivat auki
-                        jokaiselle taustasta riippumatta. Tiedämme, että parhaiten eroja tasataan jo aiemmin
-                        varhaiskasvatuksessa, peruskoulussa ja toisella asteella. Opettajien tekemä työ on paras tapa
-                        antaa riittävät valmiudet ja yhdenvertaiset mahdollisuudet korkeakouluopintoihin hakeutumiseen,
-                        ja siksi olemme kiitollisia siitä työstä, mitä oppilaitoksissa tehdään päivittäin.
+                        Aalto-yliopiston ylioppilaskunta AYY lupaa tehdä voitavansa sen eteen, että korkeakouluun
+                        hakiessa portit olisivat auki jokaiselle taustasta riippumatta. Tiedämme, että parhaiten eroja
+                        tasataan jo aiemmin varhaiskasvatuksessa, peruskoulussa ja toisella asteella. Opettajien tekemä
+                        työ on tehokkain tapa antaa riittävät valmiudet ja yhdenvertaiset mahdollisuudet
+                        korkeakouluopintoihin hakeutumiseen, ja siksi olemme kiitollisia siitä työstä, mitä
+                        oppilaitoksissa tehdään päivittäin.
                     </p>
                     <br/>
                     <p className="is-size-5">
