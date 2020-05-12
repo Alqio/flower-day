@@ -57,7 +57,7 @@ const App = () => {
                     <br/>
                     <p className="is-size-5">
                         The only way for Finland to thrive in a global world is to have competent citizens. Free
-                        education is an excellent way to improve equality and provide an opportunity for one to succeed
+                        education is an excellent way to improve equality and provide an opportunity for everyone to succeed
                         in life regardless of their starting point. The importance of education should manifest as
                         sufficient resources.
                     </p>
