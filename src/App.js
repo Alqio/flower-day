@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './flower1.png';
-import flower2 from './kukka3.jpg';
+
 import seppele from './seppele.jpg';
 import kanootti from './kanootti.jpg';
 import koivisto from './koivisto.png';
 import ossi from './ossi.png';
+import viesti from './TKY280_viesti.jpg'
+import tky from './TKY_kukanpaiva_1981.jpg'
 
 import './App.css';
 import './App.sass';
@@ -93,10 +95,12 @@ const App = () => {
                     <br/>
 
                     <p className="is-size-5">Kukanpäivän viesti on Aalto-yliopiston ylioppilaskunnassa perinteinen
-                        kevään merkki. Muutettuaan
-                        teekkarikylään opiskelijat eivät kuitenkaan halunneet luopua yhteyksistä kantakaupunkiin, vaan
+                        kevään merkki.</p>
+                    <p className="is-size-5">
+                        Muutettuaan teekkarikylään 1950-luvulla, opiskelijat eivät halunneet luopua yhteyksistä
+                        kantakaupunkiin, vaan
                         suhteita pyrittiin pitämään yllä esimerkiksi luovuttamalla keväinen tervehdys, <b>Kukanpäivän
-                            viesti</b>, jollekin merkkihenkilölle tai päättäjälle. Ensimmäisen kukanpäivän viestin
+                        viesti</b>, jollekin merkkihenkilölle tai päättäjälle. Ensimmäisen kukanpäivän viestin
                         vastaanotti 13.5.1956 satamakaupunkimme Helsingin silloinen ylipormestari Eero Rydman. Viestiä
                         vastaanottamassa on ollut muun muassa tasavallan presidentti, useita
                         ministereitä, kansanedustajia sekä yhteiskunnan vaikuttajia, mutta myös espoolaisia arkkitehteja
@@ -105,7 +109,7 @@ const App = () => {
                     <p className="is-size-5">Nykyään viestin tarkoituksena on kohdistaa päättäjien huomio opiskelijoiden
                         mielestä tärkeisiin
                         yhteiskunnallisiin aiheisiin, kuten koulutukseen, asumiseen, joukkoliikenteeseen, tutkimukseen,
-                        tai maanpuolustukseen. Lisäksi viestillä kohennetaan teekkareiden
+                        tai maanpuolustukseen. Lisäksi viestillä kohennetaan opiskelijoiden
                         julkisuuskuvaa vappuriehan jälkeen.</p>
                     <br/>
                     <p className="is-size-5">Viesti kuljetettiin alunperin Otaniemestä meloen Hietalahden torille
@@ -130,19 +134,34 @@ const App = () => {
                     <figure className="image is-128x128 ">
                         <img className="is-rounded" src={kanootti}/>
                     </figure>
-                    <p>Kukanpäivän viesti rantautuu kanootilla Otarantaan vuonna 2018 (kuva: OUBS)</p>
+                    <p>Kukanpäivän viesti rantautuu kanootilla Otarantaan vuonna 2016 (kuva: OUBS)</p>
 
                     <figure className="image is-128x128 ">
                         <img className="is-rounded" src={koivisto}/>
                     </figure>
-                    <p>Kukanpäivän viesti luovutetaan Rouva Tellervo Koivistolle Esplanadin lavalla vuonna 1982.</p>
+                    <p>Kukanpäivän viesti luovutetaan Rouva Tellervo Koivistolle Esplanadin lavalla vuonna 1982. (kuva: Montaasi)</p>
+
+                    <figure className="image is-128x128 ">
+                        <img className="is-rounded" src={tky}/>
+                    </figure>
+                    <p>Ulapalta otettu kuva vuodelta 1981 on Seurasaarenselältä. Taustalla näkyy Lauttasaaren vesitorni
+                        (oikealla, purettu 2015) sekä Salmisaaren voimala- ja tehdasalue (vasemmalla). Keskellä näkyy
+                        Lapinlahden silta eli Länsiväylä. (kuva: TKY:n kuva-arkisto, AYY:n arkisto)</p>
 
                     <figure className="image is-128x128 ">
                         <img className="is-rounded" src={ossi}/>
                     </figure>
                     <p>Ossi Törrönen suorittaa lähtölaskennan Teekkarikylän 25-vuotisjuhlien pamaukselle yhdessä kylässä
-                        syntyneen teekkarin kanssa Kukanpäivänä 1978.</p>
+                        syntyneen teekkarin kanssa Kukanpäivänä 1978. (kuva: Montaasi)</p>
 
+                    <figure className="image is-128x128 ">
+                        <img className="is-rounded" src={viesti}/>
+                    </figure>
+                    <p>Kukanpäivän viestiä kuljettamassa. Kuva lienee Lyypekinlaiturilta Eeteläsatamasta vanhan
+                        kauppahallin takaa. Tällöin taustalla näkyvät puut ovat Tähtitorninmäen puiston reunalla.
+                        Kuvassa näkyvän miehen olan takana näkyvä kupoli on persoonallisesti suunnitellussa Eteläranta
+                        6:ssa sijaitsevassa rakennuksessa. Kuva arviolta 1950- tai 1960-luvulta. (kuva: TKY:n
+                        kuva-arkisto, AYY:n arkisto)</p>
 
                     <figure className="image is-512x512 ">
                         <a href="https://elonet.finna.fi/Record/kavi.elonet_elokuva_102579">
@@ -152,7 +171,7 @@ const App = () => {
                     </figure>
                     <a href="https://elonet.finna.fi/Record/kavi.elonet_elokuva_102579">Otaniemi - tuleva tekniikan
                         kaupunki</a>
-                    <p>Videodokumentti kukanpäivältä 1950, jolloin aloitettiin Teekkarikylän rakentaminen</p>
+                    <p>Videodokumentti jossa materiaalia kukanpäivältä 1950, jolloin aloitettiin Teekkarikylän rakentaminen</p>
 
 
                 </div>
