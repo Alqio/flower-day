@@ -19,12 +19,11 @@ const App = () => {
                 <div className="container">
                     <h1 className="title">Kukanpäivä 2020</h1>
                     <p className="is-size-5">Tänä vuonna nautimme juhlahumusta kevätsäässä ulkoillen (tietysti
-                        turvavälit muistaen), sillä
-                        Kampusjaosto piilottaa Teekkarikylän ympäristöön aarteita, joita löytämällä voit voittaa
-                        palkintoja. Samalla voit oppia lisää kylän historiasta. Päivän aikana on luvassa myös muita
-                        haasteita ja tehtäviä, joiden avulla voit virittäytyä juhlatunnelmaan! </p>
+                        turvavälit muistaen), sillä Kampusjaosto kutsuu kaikki mukaan Otaketun aarrejahtiin
+                        Teekkarikylän ympäristössä - osallistumalla voit voittaa palkintoja, ja samalla voit oppia lisää
+                        kylän historiasta. </p>
                     <br/>
-                    <p className="is-size-5">Perinteinen Kukanpäivän viesti on luettavissa alla!</p>
+                    <p className="is-size-5">Perinteinen Kukanpäivän viesti on luettavissa alla.</p>
                     <br/>
                     <a className="is-size-5" href="https://www.facebook.com/events/906516156542402/">Facebook</a>
                 </div>
